@@ -8,5 +8,5 @@ export const db = mysql.createConnection({
     port: process.env.DB_PORT,
     user: process.env.DB_USER_NAME,
     password: process.env.DB_PASSWORD,
-    database: "blog",
+    database: "heroku_b5b110fc985146b",
 })
